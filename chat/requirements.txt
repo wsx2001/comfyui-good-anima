@@ -1,0 +1,23 @@
+# M0 Backend dependencies
+# Pinned for reproducibility; bump deliberately, not automatically.
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Data
+sqlmodel==0.0.22
+
+# Validation & settings
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-dotenv==1.0.1
+
+# LLM
+openai==1.51.0
+
+# HTTP client (ComfyUI health probe, future use)
+httpx==0.27.2
+
+# Logging
+loguru==0.7.2

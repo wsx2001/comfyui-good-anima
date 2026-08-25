@@ -1,0 +1,1 @@
+"""Configuration package: schema + JSON/env loader."""

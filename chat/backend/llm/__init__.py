@@ -1,0 +1,1 @@
+"""LLM client wrappers (OpenAI-compatible)."""

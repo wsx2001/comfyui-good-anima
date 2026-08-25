@@ -1,0 +1,36 @@
+/* Global styles. Element Plus covers most of the surface. */
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Microsoft YaHei', Roboto, sans-serif;
+  background: #fff;
+  color: #303133;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.settings-card + .settings-card {
+  margin-top: 16px;
+}
+
+.test-result {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #303133;
+  margin: 24px 0 12px;
+}
+
+.section-title:first-child {
+  margin-top: 0;
+}
